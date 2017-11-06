@@ -1,0 +1,262 @@
+{
+  "iPhoneX": {
+    "name":"iPhone X",
+    "width":375,
+    "height":812
+  },
+  "iPhone8+":{
+    "name":"iPhone 6+, 6s+, 7+, 8+",
+    "width":414,
+    "height":736
+  },
+  "iPhone8":{
+    "name":"iPhone 6, 6s, iPhone 7, iPhone 8",
+    "width":375,
+    "height":667
+  },
+  "iPhone5":{
+    "name":"iPhone 5",
+    "width":320,
+    "height":568
+  },
+  "iPhone4":{
+    "name":"iPhone 3, iPhone 4",
+    "width":320,
+    "height":480
+  },
+  "iPodTouch":{
+    "name":"iPod Touch",
+    "width":320,
+    "height":568
+  },
+  "iPadPro":{
+    "name":"iPad Pro",
+    "width":1024,
+    "height":1366
+  },
+  "iPad":{
+    "name":"iPad 3, 4, Air, Air2",
+    "width":768,
+    "height":1024
+  },
+  "G5":{
+    "name":"LG G5, G4, G3",
+    "width":360,
+    "height":640
+  },
+  "OptimusG": {
+    "name":"LG Optimus G",
+    "width":384,
+    "height":640
+  },
+  "GalaxyS8+":{
+    "name":"Samsung Galaxy S8+, S8",
+    "width":360,
+    "height":740
+  },
+  "GalaxyS7":{
+    "name":"Samsung Galaxy S7, S7 Edge, S6, S5, S4, S4 Mini, S3",
+    "width":360,
+    "height":640
+  },
+  "GalaxyS3Mini":{
+    "name":"Samsung Galaxy S3 Mini, S2, S",
+    "width":320,
+    "height":533
+  },
+  "GalaxyNexus":{
+    "name":"Samsung Galaxy Nexus",
+    "width":360,
+    "height":600
+  },
+  "Note8":{
+    "name":"Samsung Galaxy Note 8",
+    "width":360,
+    "height":740
+  },
+  "Note4":{
+    "name":"Samsung Galaxy Note 4, 3, 2",
+    "width":360,
+    "height":640
+  },
+  "Note":{
+    "name":"Samsung Galaxy Note",
+    "width":400,
+    "height":640
+  },
+  "Nexus5":{
+    "name":"Lg Nexus 5",
+    "width":360,
+    "height":640
+  },
+  "Nexus4":{
+    "name":"Lg Nexus 4",
+    "width":384,
+    "height":640
+  },
+  "Lumia1520":{
+    "name":"Microsoft Lumia 1520",
+    "width":432,
+    "height":768
+  },
+  "Lumia1020":{
+    "name":"Microsoft Lumia 1020, 925, 920, 900, 830, 620",
+    "width":320,
+    "height":480
+  },
+  "Nexus6":{
+    "name":"Motorola Nexus 6",
+    "width":412,
+    "height":690
+  },
+  "HTCOne":{
+    "name":"HTC One, Evo 3d",
+    "width":360,
+    "height":640
+  },
+  "HTC8x":{
+    "name":"HTC 8x",
+    "width":320,
+    "height":480
+  },
+  "XperiaZ3":{
+    "name":"Sony Xperia Z3",
+    "width":360,
+    "height":598
+  },
+  "XperiaZ":{
+    "name":"Sony Xperia Z, S, P",
+    "width":360,
+    "height":640
+  },
+  "Mi4":{
+    "name":"Xiaomi Mi 4, Mi 3",
+    "width":360,
+    "height":640
+  },
+  "K900":{
+    "name":"Lenovo K900",
+    "width":360,
+    "height":640
+  },
+  "Vega":{
+    "name":"Pantech Vega N°6",
+    "width":360,
+    "height":640
+  },
+  "BlackberryLeap":{
+    "name":"Blackberry Leap",
+    "width":390,
+    "height":695
+  },
+  "BlackberryPassport":{
+    "name":"Blackberry Passport",
+    "width":504,
+    "height":504
+  },
+  "BlackberryClassic":{
+    "name":"Blackberry Classic",
+    "width":390,
+    "height":390
+  },
+  "BlackberryQ10":{
+    "name":"Blackberry Q10",
+    "width":346,
+    "height":346
+  },
+  "BlackberryZ30":{
+    "name":"Blackberry Z30",
+    "width":360,
+    "height":640
+  },
+  "BlackberryZ10":{
+    "name":"Blackberry Z10",
+    "width":384,
+    "height":640
+  },
+  "Blackberry9800":{
+    "name":"Blackberry Torch 9800",
+    "width":360,
+    "height":480
+  },
+  "GrandS":{
+    "name":"ZTE Grand S",
+    "width":360,
+    "height":640
+  },
+  "ZTEOpen":{
+    "name":"ZTE Open (Firefox Os)",
+    "width":320,
+    "height":480
+  },
+  "GalaxyTab":{
+    "name":"Samsung Galaxy Tab 3 10\"",
+    "width":800,
+    "height":1280
+  },
+ "GalaxyTab2":{
+    "name":"Samsung Galaxy Tab 2 (7\")",
+    "width":600,
+    "height":1024
+  },
+  "Nexus10":{
+    "name":"Samsung Nexus 10",
+    "width":800,
+    "height":1280
+  },
+  "Nexus9":{
+    "name":"HTC Nexus 9",
+    "width":768,
+    "height":1024
+  },
+  "Nexus7v2":{
+    "name":"Asus Nexus 7 (v2)",
+    "width":600,
+    "height":960
+  },
+  "Nexus7":{
+    "name":"Asus Nexus 7 (v1)",
+    "width":604,
+    "height":966
+  },
+  "GPad":{
+    "name":"LG G Pad 8.3",
+    "width":600,
+    "height":960
+  },
+  "FireHD":{
+    "name":"Amazon Kindle Fire HD 8.9",
+    "width":800,
+    "height":1280
+  },
+  "FireHD7":{
+    "name":"Amazon Kindle Fire HD 7",
+    "width":480,
+    "height":800
+  },
+  "Fire":{
+    "name":"Amazon Kindle Fire",
+    "width":600,
+    "height":1024
+  },
+  "SurfacePro3":{
+    "name":"Microsoft Surface Pro 3",
+    "width":1024,
+    "height":1440
+  },
+  "SurfacePro":{
+    "name":"Microsoft Surface Pro, Pro 2",
+    "width":720,
+    "height":1280
+  },
+  "Surface":{
+    "name":"Microsoft Surface",
+    "width":768,
+    "height":1366
+  },
+  "Playbook":{
+    "name":"Blackberry Playbook",
+    "width":600,
+    "height":1024
+  }
+}

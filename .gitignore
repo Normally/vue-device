@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+*.js.old
+npm-debug.log
+firebase-debug.log
+node_modules
+www
