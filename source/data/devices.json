@@ -10,7 +10,7 @@
     "height":736
   },
   "iPhone8":{
-    "name":"iPhone 6, 6s, iPhone 7, iPhone 8",
+    "name":"iPhone 6, 6s, 7, 8",
     "width":375,
     "height":667
   },
@@ -20,7 +20,7 @@
     "height":568
   },
   "iPhone4":{
-    "name":"iPhone 3, iPhone 4",
+    "name":"iPhone 3, 4",
     "width":320,
     "height":480
   },

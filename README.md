@@ -5,6 +5,8 @@
 
 Display your app in a device sized window. Perfect for sharing with clients.
 
+The window is ignored on mobile and tablet devices, including Chrome/Safari Developer Tools
+
 ## Demo
 
 https://normally.github.io/vue-device/
@@ -36,13 +38,19 @@ After that, wrap your app in the device tag:
 
 ## Additional Options
 
+Property | Default | Description
+:--- |:--- |:---
+`type` | iPhone8 | Can be any of the [available devices](DEVICES.md)
+`background` | #FFF | Background color
+`landscape` | false | Display the window in landscape mode
+`picker` | false | Show device picker above frame
+`autoscale` | true | Always fit the device in the browser window and scale the content
+`border` | false | Show a black border around the device
+
+##### Example:
 ```html
-<device type="iPhone7" background="#FFF" landscape picker autoscale border />
+<device type='iPhone8' background='#444' autoscale='false' landscape picker border/>
 ```
-
-The `type` property can be any of the [available devices](DEVICES.md)
-
-
 
 ## Authors
 - Nic Mulvaney - [Normally](http://normally.com)

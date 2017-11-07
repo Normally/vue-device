@@ -1287,19 +1287,17 @@
       border: 5px solid #000;
       border-radius: 20px;
 }
-@media only screen and (max-width: 667px) {
-#device .device[data-v-6be5bb4f] {
+#device.realDevice .device[data-v-6be5bb4f] {
     width: 100% !important;
     height: 100% !important;
     zoom: 1 !important;
 }
-#device .device .picker[data-v-6be5bb4f] {
+#device.realDevice .device .picker[data-v-6be5bb4f] {
       display: none;
 }
-#device .device.border[data-v-6be5bb4f] {
+#device.realDevice .device.border[data-v-6be5bb4f] {
       border: none;
       border-radius: 0;
-}
 }
 
 /*# sourceMappingURL=vue-device.css.map*/

@@ -1,5 +1,5 @@
 <template>
-  <div id="device" :style="bgStyle">
+  <div id="device" :style="bgStyle" :class="{realDevice: bowser.tablet || bowser.mobile}">
       <div v-if="picker" class="picker">
           <select v-model="chosen">
             <option v-for="device, key in devices" :value="key">{{device.name}}</option>
@@ -12,6 +12,8 @@
 </template>
 
 <script>
+
+  var bowser = require('bowser')
 
   export default {
     name: 'device',
@@ -30,7 +32,7 @@
       },
       background: {
         type: String,
-        default: 'white'
+        default: '#FFF'
       },
       picker: {
         type: Boolean,
@@ -38,17 +40,19 @@
       },
       autoscale: {
         type: Boolean,
-        default: false
+        default: true
       },
     },
     data(){
       return {
         devices:require('../data/devices.json'),
+        bowser: bowser,
         chosen: 'iPhone8',
         chosenLandscape: false,
         height: 0,
         width: 0,
-        scalingWidth: false
+        scalingWidth: false,
+        isDevice: false
       }
     },
     methods:{
@@ -56,9 +60,10 @@
         this.chosenLandscape = !this.chosenLandscape
       },
       setSize(){
+        this.bowser = bowser._detect(window.navigator.userAgent)
         this.height = window.innerHeight
         this.width = window.innerWidth
-      }
+      },
     },
     computed:{
       device(){
@@ -214,10 +219,7 @@
         border-radius: 20px;
       }
     }
-  }
-
-  @media only screen and (max-width: 667px) {
-    #device .device {
+    &.realDevice .device{
       width: 100% !important;
       height: 100% !important;
       zoom: 1 !important;
@@ -230,5 +232,20 @@
       }
     }
   }
+
+  // @media only screen and (max-width: 667px) {
+  //   #device .device {
+  //     width: 100% !important;
+  //     height: 100% !important;
+  //     zoom: 1 !important;
+  //     .picker{
+  //       display: none;
+  //     }
+  //     &.border{
+  //       border: none;
+  //       border-radius: 0;
+  //     }
+  //   }
+  // }
 
 </style>
