@@ -1,10 +1,7 @@
 /*! Devices.css v0.1.14 | MIT License | github.com/picturepan2/devices.css */
 .device,
 .device::before,
-.device::after,
-.device *,
-.device *::before,
-.device *::after {
+.device::after{
   box-sizing: border-box;
   display: block;
 }

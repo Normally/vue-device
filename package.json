@@ -1,6 +1,6 @@
 {
     "name": "vue-device",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "Display your app in a device sized window.",
     "main": "index.js",
     "scripts": {
