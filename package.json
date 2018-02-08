@@ -9,7 +9,14 @@
         "docs": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.docs.js --inline --hot",
         "builddocs": "cross-env NODE_ENV=production webpack --config webpack.config.docs.js --progress --hide-modules"
     },
-    "keywords": ["vue", "device", "frame", "chrome", "mobile", "tablet"],
+    "keywords": [
+        "vue",
+        "device",
+        "frame",
+        "chrome",
+        "mobile",
+        "tablet"
+    ],
     "author": "Normally",
     "license": "ISC",
     "devDependencies": {
