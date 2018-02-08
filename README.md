@@ -28,6 +28,7 @@ export default {
   ...
 }
 ```
+
 After that, wrap your app in the device tag:
 
 ```html
@@ -36,21 +37,24 @@ After that, wrap your app in the device tag:
 </device>
 ```
 
-## Additional Options
+## Options
 
-Property | Default | Description
-:--- |:--- |:---
-`type` | iPhone8 | Can be any of the [available devices](DEVICES.md)
-`background` | #FFF | Background color
-`landscape` | false | Display the window in landscape mode
-`picker` | false | Show device picker above frame
-`autoscale` | true | Always fit the device in the browser window and scale the content
-`border` | false | Show a black border around the device
+| Property     | Default   | Description                                                       |
+| :----------- | :-------- | :---------------------------------------------------------------- |
+| `type`       | `iPhone8` | Can be any of the [available devices](DEVICES.md)                 |
+| `background` | `#FFF`    | Background color                                                  |
+| `landscape`  | `false`   | Display the window in landscape mode                              |
+| `picker`     | `false`   | Show device picker above frame                                    |
+| `autoscale`  | `true`    | Always fit the device in the browser window and scale the content |
+| `border`     | `false`   | Show a black border around the device                             |
+| `disabled`   | `false`   | Disable altogether just as a desktop view                         |
 
 ##### Example:
+
 ```html
-<device type='iPhone8' background='#444' autoscale='false' landscape picker border/>
+<device type='iPhone8' background='#444' autoscale='false' landscape picker border> ... </device>
 ```
 
 ## Authors
-- Nic Mulvaney - [Normally](http://normally.com)
+
+* Nic Mulvaney - [Normally](http://normally.com)

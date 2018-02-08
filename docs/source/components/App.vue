@@ -11,24 +11,23 @@
 </template>
 
 <script>
-	import Device from '../../../index.js'; // 'vue-device' in production
+import Device from '../../../dist/vue-device.js' // 'vue-device' in production // ../../../source/components/Device.vue in dev
 
-	export default {
-		components:{
-			Device
-		}
-	}
-
+export default {
+	components: {
+		Device,
+	},
+}
 </script>
 
 <style>
-	body{
-		margin:0;
-		padding:0;
-		overflow: hidden;
-	}
-	#mycontent{
-		padding: 20px;
-		font-family: sans-serif;
-	}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#mycontent {
+	padding: 20px;
+	font-family: sans-serif;
+}
 </style>

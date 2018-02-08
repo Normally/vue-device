@@ -1,22 +1,15 @@
 {
     "name": "vue-device",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "Display your app in a device sized window.",
-    "main": "index.js",
+    "main": "dist/vue-device.js",
     "scripts": {
         "dev": "cross-env NODE_ENV=production webpack --progress --hide-modules --watch",
         "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
         "docs": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.docs.js --inline --hot",
         "builddocs": "cross-env NODE_ENV=production webpack --config webpack.config.docs.js --progress --hide-modules"
     },
-    "keywords": [
-        "vue",
-        "device",
-        "frame",
-        "chrome",
-        "mobile",
-        "tablet"
-    ],
+    "keywords": ["vue", "device", "frame", "chrome", "mobile", "tablet"],
     "author": "Normally",
     "license": "ISC",
     "devDependencies": {
@@ -49,6 +42,7 @@
     "repository": "https://github.com/Normally/vue-device.git",
     "private": false,
     "dependencies": {
-        "bowser": "^1.8.1"
+        "bowser": "^1.8.1",
+        "webpack-merge": "^4.1.1"
     }
 }
