@@ -1,6 +1,6 @@
 {
     "name": "vue-device",
-    "version": "0.5.4",
+    "version": "0.5.5",
     "description": "Display your app in a device sized window.",
     "main": "dist/vue-device.js",
     "scripts": {
@@ -44,12 +44,10 @@
         "vue-style-loader": "^3.0.3",
         "vue-template-compiler": "2.4.4",
         "webpack": "^3.7.1",
-        "webpack-dev-server": "2.9.1"
-    },
-    "repository": "https://github.com/Normally/vue-device.git",
-    "private": false,
-    "dependencies": {
+        "webpack-dev-server": "2.9.1",
         "bowser": "^1.8.1",
         "webpack-merge": "^4.1.1"
-    }
+    },
+    "repository": "https://github.com/Normally/vue-device.git",
+    "private": false
 }
