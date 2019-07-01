@@ -18,6 +18,7 @@ yarn add vue-device
 ```
 
 ## Usage
+### Vuejs
 
 ```javascript
 import device from 'vue-device'
@@ -36,6 +37,28 @@ After that, wrap your app in the device tag:
 	<app/>
 </device>
 ```
+
+### Nuxtjs
+
+1. npm or yarn install the 'vue-device' .
+2. create a new file in plugins folder as ```vue-device.js```
+3. Add this to the file and register the component
+    ```javascript
+    import Vue from 'vue'; 
+    import Device from 'vue-device'; 
+    Vue.component(Device.name, Device)
+    ```
+4. Then in the ```nuxt.config.js``` add
+    ```javascript 
+    plugins: [{ src: '~/plugins/vue-device.js', ssr: false }],
+    ```
+5. Wrap the ```<nuxt/>``` tag in like 
+```html
+<device>
+	<nuxt/>
+</device> 
+```
+
 
 ## Options
 
